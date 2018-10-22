@@ -1,7 +1,9 @@
-#include <stdlib>
+#include <iostream>
 
-void main(){
-	
-printf("Hola Mundo");
+using namespace std;
 
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
 }
