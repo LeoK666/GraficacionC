@@ -1,0 +1,1 @@
+g++ "Nombre del archivo".cpp -o "Nombre del exe"
