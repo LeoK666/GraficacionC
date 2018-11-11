@@ -7,3 +7,8 @@ HolaF.o: HolaF.cpp FuncionF.h
 FuncionF.o: FuncionF.cpp FuncionF.h
 	g++ -Wall -Wextra -Werror -c FuncionF.cpp
 
+.PHONY: clean
+
+clean:
+	del *.o
+
