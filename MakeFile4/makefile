@@ -14,7 +14,7 @@ all: $(TARGET)
 	$(CXX) $(CFLAGS) -c $< -o $@
 
 $(TARGET): $(OBJECTS)
-	$(LINK.cpp) $^ - o $@
+	$(LINK.cpp) $^ -o $@
 
 .PHONY: clean
 clean:
